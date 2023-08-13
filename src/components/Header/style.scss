@@ -1,0 +1,170 @@
+.header {
+  padding: 16px 0;
+
+  &__wrapper {
+    // border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    // background-color: bisque;
+    align-items: center;
+  }
+
+  .nav {
+    max-width: 469px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // border: 1px solid red;
+
+    &__logoLink {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // border: 1px solid red;
+      width: 48px;
+      height: 48px;
+
+      &-img {
+        width: 100%;
+      }
+    }
+
+    &__list {
+      max-width: 386px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__item {
+
+      &-link {
+        // border: 1px solid red;
+        text-decoration: none;
+        padding: 2px 5px;
+        color: #000;
+        font-family: "Inter";
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+  }
+
+  &__control {
+    // border: 1px solid red;
+    max-width: 468px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+    &-deliver {
+      // border: 1px solid red;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-right: 17px;
+
+      &-iconBox{
+        width: 32px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        // padding: 6px;
+        background-color: #f1eff4;
+
+        &-icon{
+          font-size: 20px;
+          color: #51267d;
+        }
+      }
+
+      &-contentBox{
+        font-size: 13px;
+        font-weight: 400;
+        color: #000;
+        line-height: 15px;
+
+        &-desc2{
+          color: #51267d;
+        }
+
+      }
+
+
+    }
+
+    &-language {
+      // border: 1px solid red;
+      background-color: #f1eff4;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      padding: 5px 8px;
+      border-radius: 15px;
+
+      &-flag{
+        width: 18px;
+        height: 18px;
+      }
+
+      &-arrowIcon{
+        // border: 1px solid red;
+        font-size: 23px;
+      }
+    }
+
+    &-basket {
+      // border: 1px solid red;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+
+      &-iconBox{
+        width: 32px;
+        height: 32px;
+        background-color: #f1eff4;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &-icon{
+          color: #51267d;
+          font-size: 18px;
+        }
+      }
+
+      &-text{
+        font-size: 14px;
+        font-weight: 400;
+        color: #000;
+        font-style: normal;
+      }
+
+    }
+
+    &-profile {
+      // border: 1px solid red;
+      background-color: #f1eff4;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &-icon{
+        font-size: 19px;
+      }
+
+    }
+
+
+  }
+
+}
