@@ -4,9 +4,9 @@ import "./style.scss";
 const index = () => {
    return (
       <div>
-         <h1>Home</h1>
+         <h1>Cart page</h1>
       </div>
    );
 };
 
-export default index;<h1>Home</h1>
+export default index;

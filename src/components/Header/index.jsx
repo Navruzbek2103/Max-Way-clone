@@ -1,6 +1,6 @@
 import React from 'react';
 import "./style.scss";
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import SiteLogo from "./../../assets/images/site-logo.webp"
 import { TiLocation } from "react-icons/ti";
 import LangUzb from "./../../assets/images/uz.svg"
@@ -20,16 +20,16 @@ const index = () => {
                   </Link>
                   <ul className="nav__list">
                      <li className="nav__item">
-                        <Link to="" className='nav__item-link'>Menyu</Link>
+                        <NavLink to="/" className='nav__item-link'>Menyu</NavLink>
                      </li>
                      <li className="nav__item">
-                        <Link to="" className='nav__item-link'>Filiallar</Link>
+                        <NavLink to="/branches" className='nav__item-link'>Filiallar</NavLink>
                      </li>
                      <li className="nav__item">
-                        <Link to="" className='nav__item-link'>Biz haqimizda</Link>
+                        <NavLink to="/about" className='nav__item-link'>Biz haqimizda</NavLink>
                      </li>
                      <li className="nav__item">
-                        <Link to="" className='nav__item-link'>Bog'lanish</Link>
+                        <NavLink to="/contacts" className='nav__item-link'>Bog'lanish</NavLink>
                      </li>
                   </ul>
                </nav>
@@ -48,12 +48,12 @@ const index = () => {
                      <img src={LangUzb} alt="site language country flag" className="header__control-language-flag" />
                      <MdKeyboardArrowDown className='header__control-language-arrowIcon'/>
                   </div>
-                  <div className="header__control-basket">
+                  <NavLink to="/cart" className="header__control-basket">
                      <div className="header__control-basket-iconBox">
                         <PiShoppingCartSimpleFill className='header__control-basket-iconBox-icon'/>
                      </div>
                      <p className="header__control-basket-text">0 so'm</p>
-                  </div>
+                  </NavLink>
                   <div className="header__control-profile">
                      <BsFillPersonFill className='header__control-profile-icon' />
                   </div>

@@ -1,5 +1,6 @@
 .header {
   padding: 16px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 
   &__wrapper {
     // border: 1px solid red;
@@ -47,6 +48,10 @@
         font-family: "Inter";
         font-size: 16px;
         font-weight: 400;
+
+        &:hover {
+          font-weight: 500;
+        }
       }
     }
   }
@@ -67,7 +72,11 @@
       gap: 8px;
       margin-right: 17px;
 
-      &-iconBox{
+      &:hover {
+        cursor: pointer;
+      }
+
+      &-iconBox {
         width: 32px;
         height: 32px;
         display: flex;
@@ -77,19 +86,19 @@
         // padding: 6px;
         background-color: #f1eff4;
 
-        &-icon{
+        &-icon {
           font-size: 20px;
           color: #51267d;
         }
       }
 
-      &-contentBox{
+      &-contentBox {
         font-size: 13px;
         font-weight: 400;
         color: #000;
-        line-height: 15px;
+        line-height: 16px;
 
-        &-desc2{
+        &-desc2 {
           color: #51267d;
         }
 
@@ -107,12 +116,16 @@
       padding: 5px 8px;
       border-radius: 15px;
 
-      &-flag{
+      &:hover {
+        cursor: pointer;
+      }
+
+      &-flag {
         width: 18px;
         height: 18px;
       }
 
-      &-arrowIcon{
+      &-arrowIcon {
         // border: 1px solid red;
         font-size: 23px;
       }
@@ -123,8 +136,9 @@
       display: flex;
       align-items: center;
       gap: 8px;
+      text-decoration: none;
 
-      &-iconBox{
+      &-iconBox {
         width: 32px;
         height: 32px;
         background-color: #f1eff4;
@@ -133,13 +147,13 @@
         align-items: center;
         justify-content: center;
 
-        &-icon{
+        &-icon {
           color: #51267d;
           font-size: 18px;
         }
       }
 
-      &-text{
+      &-text {
         font-size: 14px;
         font-weight: 400;
         color: #000;
@@ -158,7 +172,11 @@
       justify-content: center;
       align-items: center;
 
-      &-icon{
+      &:hover {
+        cursor: pointer;
+      }
+
+      &-icon {
         font-size: 19px;
       }
 

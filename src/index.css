@@ -44,7 +44,7 @@ html {
 
 body {
   font-family: "Inter";
-  margin: 0 0 50px; /* bottom = footer height */
+  margin: 0 0 202px; /* bottom = footer height */
   font-weight: normal;
 }
 
@@ -77,6 +77,6 @@ footer {
   position: absolute;
   left: 0;
   bottom: 0;
-  height: 50px;
+  height: 202px;
   width: 100%;
 }
