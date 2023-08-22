@@ -11,7 +11,7 @@
   }
 
   .nav {
-    max-width: 469px;
+    max-width: 475px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -32,7 +32,8 @@
     }
 
     &__list {
-      max-width: 386px;
+      // border: 1px solid red;
+      max-width: 392px;
       width: 100%;
       display: flex;
       justify-content: space-between;
@@ -58,7 +59,7 @@
 
   &__control {
     // border: 1px solid red;
-    max-width: 468px;
+    max-width: 469.5px;
     width: 100%;
     display: flex;
     justify-content: space-between;
