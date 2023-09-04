@@ -1,0 +1,97 @@
+.contact-page {
+  height: 70vh;
+  overflow-y: scroll;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &::-webkit-scrollbar{
+    display: none;
+  }
+
+  &__box {
+
+    &-title{
+      font-family: "Inter", sans-serif;
+      font-weight: 700;
+      line-height: 38px;
+      font-size: 32px;
+      color: #000;
+      margin-bottom: 32px;
+    }
+
+    &-inner{
+      // border: 1px solid red;
+      width: 287px;
+      padding: 32px;
+      padding-right: 13px;
+      background-color: #96B1C2;
+      border-radius: 10px;
+      margin-bottom: 16px;
+
+      &-imgBox{
+        width: 100px;
+        height: 100px;
+        padding: 8px;
+        background-color: #fff;
+        border-radius: 10px;
+        margin-bottom: 18px;
+
+        &-img{
+          width: 100%;
+        }
+
+      }
+      &-desc{
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 17px;
+        color: #fff;
+        margin-bottom: 16px;
+      }
+
+      &-link{
+        color: #fff;
+        text-decoration: none;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        // border: 1px solid red;
+
+        &:hover{
+          color: #fff;
+          text-decoration: underline;
+        }
+
+        &-icon{
+          font-size: 21px;
+        }
+      }
+    }
+
+    &-subTitle{
+      // border: 1px solid red;
+      font-family: "Inter", sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      color: #000;
+      margin-bottom: 8px;
+    }
+
+    &-desc{
+      // border: 1px solid red;
+      font-family: "Inter", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #000;
+      text-decoration: none;
+
+      &:hover{
+        color: #000;
+        text-decoration: underline;
+      }
+    }
+
+  }
+
+}
